@@ -10,17 +10,19 @@
 }
 
 body {
-  background-color: snow;
+  background-color: firebrick;
   width: 100%;
-  height: 100%;
+  background-size: cover
 }
 
 h1 {
+  border-top: 3px solid white;
   padding: 20px;
   font-size: 80px;
   text-align: center;
   line-height: 80px;
   background-color: firebrick;
+  border-bottom: 2px solid white;
 }
 
 div#game-container {
@@ -32,6 +34,8 @@ div#game-container {
   justify-content: center;
   align-items: center;
   font-size: 2em;
+  border-bottom: 2px solid firebrick;
+
 }
 
 div#game-container.status{
@@ -61,11 +65,11 @@ div.reset {
 
 button.box {
   background-color: #ffa64d;
-  color: ;
   border-radius: 20px;
   margin: 4px;
-  border: 5px solid lightsteelblue;
+  border: 8px solid lightsteelblue;
   font-size: 2em;
+  font-weight: 800;
   width: 220px;
   height: 220px;
   box-shadow: 3px 5px 2px firebrick;
@@ -73,6 +77,8 @@ button.box {
 
 
 button.reset-button {
+  border-bottom: 3px solid lightsteelblue;
+  border-top: 2px solid white;
   font-size: 1.2em;
   width: 100%;
   height: 60px;
